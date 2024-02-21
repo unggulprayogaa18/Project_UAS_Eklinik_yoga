@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1036463058656",
+    "project_id": "eklinikk-18d73",
+    "storage_bucket": "eklinikk-18d73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036463058656:android:bf180d3dddefbd1c0d6a85",
+        "android_client_info": {
+          "package_name": "com.example.e_klinik_dr_h_m_chalim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVKS6lmTG7T58eLyvmDKZZfMsxdMnZchw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

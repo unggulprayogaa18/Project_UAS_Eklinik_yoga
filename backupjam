@@ -1,0 +1,33 @@
+// Future<String> countStatusAntrianMenungguWITHjam() async {
+  //   try {
+  //     QuerySnapshot eklinikSnapshot =
+  //         await FirebaseFirestore.instance.collection('eklinik').get();
+
+  //     for (QueryDocumentSnapshot doc in eklinikSnapshot.docs) {
+  //       final userData = doc.data() as Map<String, dynamic>;
+  //       String jamBerakhir = userData['jam_berakhir'];
+  //       String jam_antrian = userData['jam_antrian'];
+
+  //       print('Jam berakhir: $jamBerakhir');
+  //       print('Jam antrian: $jam_antrian');
+
+  //       DateTime now = DateTime.now();
+  //       String currentTimeString = now.toLocal().toString().substring(11, 16);
+
+  //       if (currentTimeString.compareTo(jam_antrian) >= 0 &&
+  //           currentTimeString.compareTo(jamBerakhir) <= 0) {
+  //         print('Sesuai dengan jam sekarang');
+
+  //         var nomorAntrian = userData['nomer_antrian'];
+  //         print('Nomor Antrian menunggu: $nomorAntrian');
+  //         return nomorAntrian.toString();
+  //       }
+  //     }
+
+  //     print('Tidak sesuai dengan jam sekarang untuk semua data');
+  //     return "";
+  //   } catch (e) {
+  //     print('Error nomer antrian tidak muncul untuk jam sekarang: $e');
+  //     return "";
+  //   }
+  // }
